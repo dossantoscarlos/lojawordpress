@@ -1,0 +1,36 @@
+2020-10-24T20:32:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-10-24T20:53:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-10-24T21:33:30+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php:408
+Stack trace:
+#0 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(289): Innovs_Woo_Manager->innovs_woo_manager_add_to_cart_label()
+#1 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\plugin.php(206): WP_Hook->apply_filters()
+#2 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters()
+#3 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(465): WC_Product_Simple->add_to_cart_text()
+#4 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(438): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid-> in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php on line 408
+
+2020-10-24T21:36:42+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php:408
+Stack trace:
+#0 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(289): Innovs_Woo_Manager->innovs_woo_manager_add_to_cart_label()
+#1 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\plugin.php(206): WP_Hook->apply_filters()
+#2 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters()
+#3 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(465): WC_Product_Simple->add_to_cart_text()
+#4 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(438): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid-> in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php on line 408
+
+2020-10-24T21:37:11+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php:408
+Stack trace:
+#0 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(289): Innovs_Woo_Manager->innovs_woo_manager_add_to_cart_label()
+#1 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\plugin.php(206): WP_Hook->apply_filters()
+#2 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters()
+#3 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(465): WC_Product_Simple->add_to_cart_text()
+#4 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(438): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid-> in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php on line 408
+
+2020-10-24T21:51:40+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php:408
+Stack trace:
+#0 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(289): Innovs_Woo_Manager->innovs_woo_manager_add_to_cart_label()
+#1 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-includes\plugin.php(206): WP_Hook->apply_filters()
+#2 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters()
+#3 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(465): WC_Product_Simple->add_to_cart_text()
+#4 C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(438): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid-> in C:\Bitnami\wordpress-5.5.1-2\apps\wordpress\htdocs\wp-content\plugins\innovs-woo-manager\includes\class-innovs-woo-manager.php on line 408
+

@@ -1,0 +1,22 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.browser-d-btn img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.browser-d-btn a {
+    font-size: 30px;
+}
+
+h3.bro-title {
+    font-size: 30px;
+}
+
+p.bro-content {
+    font-size: 20px;
+}

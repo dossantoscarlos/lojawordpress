@@ -1,0 +1,154 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+body {
+    background-color: #f1f1f1;
+}
+
+.cssef-lw {
+    min-width: 220px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.notice-success.is-dismissible.cssfe-review {
+    height: 100px;
+}
+
+.cssfe-review-notice img.review-logo {
+    width: 80px;
+    height: auto;
+}
+
+img.plu-logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.cssfe-review-notice p {
+    font-size: 16px;
+}
+
+.cssfe-review-notice ul li {
+    display: inline-block;
+    margin: 0px 21px 0px 0px;
+    color: #b32464;
+}
+
+.notice.elementor-message {
+    display: none !important;
+}
+
+.cssef-cp .wp-picker-container .iris-picker {
+    border-radius: 0;
+    border-color: #ddd;
+    margin-top: 6px;
+    position: absolute;
+    z-index: 9999999;
+}
+
+span.px-type-input {
+    position: relative;
+    max-width: 100px !important;
+}
+
+.px-type-input input[type="text"] {
+    width: 100px;
+}
+
+span.set-input-text {
+    position: absolute;
+    background: #f7f7f7;
+    padding: 2px;
+    color: #32373c;
+    right: 0px;
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid green;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.cssef-css-class {
+    border: none !important;
+    background-color: rgba(0, 0, 0, .1) !important;
+}
+
+.cssef-css-class:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+span#copy {
+    background: gray;
+    padding: 6px;
+}
+
+#copy i.far.fa-copy {
+    font-size: 18px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+input[type="url"]::placeholder {
+    color: #80808047;
+}
+
+.cssef-cp p span {
+    margin-right: 0px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.meta-box {
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px 3px #8080801a;
+    padding: 15px 10px;
+    border-radius: 3px;
+    min-height: 60px;
+}
+
+.cssef-pro-add-on-control {
+    position: relative;
+}
+
+.cssef-pro-add-on-control .cssfe-pro-box {
+    margin: 10px 0px;
+}
+
+.cssfe-pro-box .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: green;
+}
+
+.cssfe-pro-box .desc {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cssfe-pro-box i.fas.fa-desktop {
+    font-size: 15px;
+    margin: 0px 10px;
+    color: #929eaa;
+}
+
+.cssfe-pro-box i.far.fa-question-circle {
+    font-size: 15px;
+    color: #929eaa;
+}
+
+a.cssfe-pro-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #00a0d2;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 3px;
+    font-weight: 500;
+}
