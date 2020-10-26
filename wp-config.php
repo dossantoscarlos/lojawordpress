@@ -77,8 +77,9 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
+define( 'WP_DEBUG_LOG', '/tmp/wp-errors.log' );
 /* That's all, stop editing! Happy publishing. */
 /**
  * The WP_SITEURL and WP_HOME options are configured to access from any hostname or IP address.
